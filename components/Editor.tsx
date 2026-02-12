@@ -71,7 +71,7 @@ export default function Editor() {
     extensions: [
       StarterKit,
       Placeholder.configure({
-        placeholder: "Start writing — add /question anywhere and press Enter to resolve it inline. e.g. The iPhone launched /when + Enter",
+        placeholder: "Start writing, type /<question> and press Enter",
       }),
       QuestionHighlight,
     ],
